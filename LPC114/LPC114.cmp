@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 7/30/2015 10:45:19 AM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 7/31/2015 1:01:34 PM
 
 BeginCmp
 TimeStamp = /55BA1043;
@@ -66,20 +66,6 @@ EndCmp
 BeginCmp
 TimeStamp = /55B86E1B;
 Reference = C9;
-ValeurCmp = 0.1uF;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55B86E45;
-Reference = C10;
-ValeurCmp = 0.1uF;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55B86E6C;
-Reference = C11;
 ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
@@ -169,10 +155,10 @@ IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B99FDC;
+TimeStamp = /55BB2DC7;
 Reference = P1;
-ValeurCmp = CONN_01X30;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x30;
+ValeurCmp = CONN_01X28;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x28;
 EndCmp
 
 BeginCmp
@@ -183,10 +169,17 @@ IdModule  = Connect:VASCH10x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B9A04D;
+TimeStamp = /55BB34FB;
 Reference = P3;
-ValeurCmp = CONN_01X30;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x30;
+ValeurCmp = CONN_01X28;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x28;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BAF2C5;
+Reference = P4;
+ValeurCmp = CONN_01X07;
+IdModule  = ExploreEmbedded:USB_Shield;
 EndCmp
 
 BeginCmp
